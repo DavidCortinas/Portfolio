@@ -8,11 +8,16 @@ $(function() {
 
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
+		console.log(form)
 		// Stop the browser from submitting the form.
 		e.preventDefault();
 
+		console.log(form)
+
 		// Serialize the form data.
 		var formData = $(form).serialize();
+
+		console.log(formData)
 
 		// Submit the form using AJAX.
 		$.ajax({
