@@ -1,0 +1,61 @@
+
+
+
+/*=======================================
+Template Design By MarkUps  
+Author URI : http://www.markups.io/
+========================================*/
+
+.mu-primary-btn:hover,
+.mu-primary-btn:focus,
+.mu-filter-link:hover,
+.mu-filter-imglink:hover,
+.mu-filter-link:focus,
+.mu-filter-imglink:focus,
+.mu-simplefilter li:hover,
+.mu-simplefilter li.active,
+.mu-copy-right a:hover,
+.mu-copy-right a:focus {
+	color: #af311d;
+}
+
+.mu-send-msg-btn:hover,
+.mu-send-msg-btn:focus,
+.mu-social-media a:hover,
+.mu-social-media a:focus {
+	border: 1px solid #af311d;
+	color: #af311d;
+}
+
+.mu-testimonial-slide .slick-dots li button:hover,
+.mu-testimonial-slide .slick-dots li button:focus,
+.mu-testimonial-slide .slick-dots li.slick-active button,
+.mu-resume-btn:hover,
+.mu-resume-btn:focus,
+.mu-header-dot,
+.mu-filter-item-content,
+.mu-contact-top-single .mu-icon,
+.mu-skill-progress-bar .mu-pro-bar,
+#mu-featured-slider,
+#mu-header.mu-fixed-nav {
+	background-image: url("assets/images/christopher-gower-m_HRfLhgABo-unsplash.jpeg");
+	/* background-color: rgba(227, 75, 51, 0.95); */
+	background-color: #fff;
+}
+
+.mu-contact-form .form-control:focus {
+	border: 1px solid #af311d;    
+} 
+
+.mu-resume-btn,
+.mu-service-icon-box {
+	border: 2px solid #af311d;
+	color: #af311d;
+}
+
+
+.mu-pro-bar .proggress {
+	background-color: #af311d !important;
+}
+
+
