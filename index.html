@@ -20,7 +20,7 @@
     <link id="switcher" href="assets/css/theme-color/dark-red-theme.css" rel="stylesheet">
 
     <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
 
     <!-- Fonts -->
 
@@ -45,6 +45,7 @@
 	<meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51310441202_a0f3a7e227_z.jpg" />
 	<meta name="description" property="og:description" content="Portfolio App" />
 	<meta name="author" content="David Cortinas" />
+
   </head>
   <body>
   	
@@ -97,7 +98,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="mu-featured-area">
-						<img class="mu-headshot-img" src="assets/images/portfolio-main.jpeg" alt="Headshot Image">
+						<img class="mu-headshot-img" src="assets/images/portfolio-main.jpg" alt="Headshot Image">
 						<h1 id="Header">Hi, I'm David Cortinas</h1>
 
 						<!-- Start text slide -->
@@ -111,7 +112,7 @@
 						
 						<div class="mu-featured-content">
 							<h5 id="description">full stack web developer with extensive experience
-							in Javascript and Python and a penchant for providing a seamless user experience and bringing ideas
+							in Javascript, Typescript, Python and Django and a penchant for providing a seamless user experience and bringing ideas
 							to life.</h5>
 							<a href="#mu-portfolio" class="mu-primary-btn view-my-work-btn">VIEW MY WORK</a>
 						</div>
@@ -159,9 +160,9 @@
 											<!-- Start skills progress bar -->
 
 						                  	<div class="mu-skill-progress-bar">
-						                  		<h3>Technical Skills</h3>
+						                  		<h3>Skills</h3>
 							                    <span>Javascript</span>
-							                    <!-- <div class="mu-pro-bar mu-javascript-bar"> -->
+							                    <div class="mu-pro-bar mu-javascript-bar">
 							                      
 							                    </div>
 							                    <span>Python</span>
@@ -185,7 +186,7 @@
 							                    <!-- <div class="mu-pro-bar mu-html5-bar"> -->
 							                    </div>
 							                    <span>CSS</span>
-							                    <!-- <div class="mu-pro-bar mu-css-bar"> -->
+							                    <div class="mu-pro-bar mu-css-bar">
 							                    </div>
 						                  	</div>
 
@@ -199,7 +200,7 @@
 						                  	</div>
 
 						                  	<!-- Download Ressume Button -->
-						                  	<a href="images/Resume_DavidCortinas_062021.pdf" class="mu-resume-btn" download="Resume_DavidCortinas_062021">Checkout My Resume</a>
+						                  	<a href="assets/images/Resume_DavidCortinas_062021.pdf" class="mu-resume-btn" download="Resume_DavidCortinas_062021">Checkout My Resume</a>
 
 										</div>
 									</div>
@@ -246,21 +247,43 @@
 								<div class="col-xs-12 col-sm-12 col-md-12 portfolio-section">
 									<div class="filtr-item" data-category="1">
 										<div class="mu-item-thumbonail">
+											<img class="img-responsive" src="assets/images/QuotaPath.png" alt="image">
+										</div>
+										<div class="mu-filter-item-content">
+											<a class="mu-filter-link" href="https://www.quotapath.com/" target="_blank"><i
+													class="fa fa-link"></i></a>
+											<a class="mu-filter-imglink" href="assets/images/QuotaPath.png" target="_blank" title="Web Development"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+									<div class="mu-portfolio-paragraph">
+										<h4>QuotaPath</h4>
+										<p>A compensation management web application that provides sales teams with accurate and up to date deal and 
+											compensation data to inform and motivate teams through transparent reporting, and forecasting of deals, 
+											revenue, and commissions. Enabled input and calculation of deal data for clear reporting display and exports 
+											that users could leverage to track individual and team sales performance in order to accurately manage
+											compensation and motivate team members in attaining goals and milestones.</p>
+									</div>
+								</div>
+
+								<div class="col-xs-12 col-sm-12 col-md-12 portfolio-section">
+									<div class="filtr-item" data-category="1">
+										<div class="mu-item-thumbonail">
 											<img class="img-responsive" src="assets/images/DeepCuts-Placeholder.png" alt="image">
 										</div>
 										<div class="mu-filter-item-content">
 											<a class="mu-filter-link" href="https://deepcuts-musicsamplelibrary.web.app/" target="_blank"><i
 													class="fa fa-link"></i></a>
-											<a class="mu-filter-imglink" href="images/DeepCuts-Placeholder.png" title="Web Development"><i
+											<a class="mu-filter-imglink" href="assets/images/DeepCuts-Placeholder.png" title="Web Development"><i
 													class="fa fa-search"></i></a>
 										</div>
 									</div>
 									<div class="mu-portfolio-paragraph">
 										<h4>Deep Cuts Music Library</h4>
-										<p>A music streaming web application that provides a marketplace for the selling and licensing of music samples. 
-											Leveraged Stripe API’s and Express to create a multi-tiered payment system including one-time payments and 
-											subscriptions Built a NoSQL database for product and order management utilizing  Firebase Realtime Database. 
-											Enabled user authentication and authorization using Firebase Authorization.</p>
+										<p>A music streaming web application that promotes collaboration and intellectual property rights through user discovery
+											and licensing of music samples. Leveraged Stripe API’s and Express to create a multi-tiered payment system
+											including one-time payments and subscriptions Built a NoSQL database for product and order management utilizing 
+											Firebase Realtime Database. Enabled user authentication and authorization using Firebase Authorization.</p>
 									</div>
 								</div>
 		
@@ -270,8 +293,8 @@
 											<img class="img-responsive" src="assets/images/vancerts-placeholder.png" alt="image">
 										</div>
 										<div class="mu-filter-item-content">
-											<a class="mu-filter-link" href="https://vancerts-stage-designer.web.app/" target="_blank"><i class="fa fa-link"></i></a>
-											<a class="mu-filter-imglink" href="images/vancerts-placeholder.png" title="UI/UX DESIGN"><i
+											<a class="mu-filter-link" href="#" target="_blank"><i class="fa fa-link"></i></a>
+											<a class="mu-filter-imglink" href="assets/images/vancerts-placeholder.png" title="UI/UX DESIGN"><i
 													class="fa fa-search"></i></a>
 										</div>
 									</div>
@@ -293,7 +316,7 @@
 										<div class="mu-filter-item-content">
 											<a class="mu-filter-link" href="https://realtime-weather-widget.web.app/" target="_blank"><i
 													class="fa fa-link"></i></a>
-											<a class="mu-filter-imglink" href="images/WeatherWidget-Placeholder.png" title="GRAPHICS DESIGN"><i
+											<a class="mu-filter-imglink" href="assets/images/WeatherWidget-Placeholder.png" title="GRAPHICS DESIGN"><i
 													class="fa fa-search"></i></a>
 										</div>
 									</div>
@@ -309,11 +332,11 @@
 								<div class="col-xs-12 col-sm-12 col-md-12 portfolio-section" >
 									<div class="filtr-item" data-category="4">
 										<div class="mu-item-thumbonail">
-											<img class="img-responsive" src="assets/images/ReactLawfirm-Placeholder.png" alt="image">
+											<img class="img-responsive" src="assets/images/ReactLawfirm-placeholder.png" alt="image">
 										</div>
 										<div class="mu-filter-item-content">
 											<a class="mu-filter-link" href="https://react-lawfirm.web.app" target="_blank"><i class="fa fa-link"></i></a>
-											<a class="mu-filter-imglink" href="images/ReactLawfirm-Placeholder.png" title="MOBILE APP"><i
+											<a class="mu-filter-imglink" href="assets/images/ReactLawfirm-Placeholder.png" title="MOBILE APP"><i
 													class="fa fa-search"></i></a>
 										</div>
 									</div>
@@ -455,34 +478,55 @@
 												<img src="assets/images/dark-red-work.png" alt="timeline" />
 											</figure>
 											<div class="dir-r radius-3" id="r-list">
-												<h1>Vancerts</h1>
-												<ul>
-													<li>Leveraged Javascript along with the Konvajs library to engineer a user friendly drag and drop stage-plot designer to
-													provide an effective and memorable experience for users</li>
-													<li>Spearheaded the design and layout plans for the widget and forms</li>
-													<li>Organized and led meetings for the design conceptualization of the front-end design of the stage designer page</li>
+												<h1>QuotaPath</h1>
+												<ul class="experience">
+													<li class="work-list">Analyzed and manipulated data in our back-end system to provide accurate and up to 
+														date calculations and formatting of data for front-end reporting systems and exports to provide a clear 
+														and concise experience for users</li>
+													<li class="work-list">Retrieved, formatted, and shaped data coming in from the back-end to provide transparent 
+														reporting of deal and compensation data for users</li>
+													<li class="work-list">Aided in the redesign of our front-end grid system to allow for a more seamless design 
+														experience for developers and an improved viewing experience for users</li>
+													<li class="work-list">Enabled a seamless login experience for customers and users of our application by 
+														leveraging SSO systems (Google, Salesforce, Close)</li>
 												</ul>
 											</div>
-											<div class="date-l">05/2021 – Present</div>
+											<div class="date-l">09/2021 - 02/2023</div>
+										</li>
+
+										<li class="timeline-blocks">
+											<figure class="timeline-icon">
+												<img src="assets/images/dark-red-work.png" alt="timeline" />
+											</figure>
+											<div class="dir-l radius-3" id="l-list">
+												<h1>Vancerts</h1>
+												<ul class="experience">
+													<li class="work-list">Leveraged Javascript along with the Konvajs library to engineer a user friendly drag and drop stage-plot designer to
+													provide an effective and memorable experience for users</li>
+													<li class="work-list">Spearheaded the design and layout plans for the widget and forms</li>
+													<li class="work-list">Organized and led meetings for the design conceptualization of the front-end design of the stage designer page</li>
+												</ul>
+											</div>
+											<div class="date-r">05/2021 – 08/2021</div>
 										</li>
 									
 										<li class="timeline-blocks">
 											<figure class="timeline-icon">
 												<img src="assets/images/dark-red-work.png" alt="timeline" />
 											</figure>
-											<div class="dir-l radius-3" id="l-list">
+											<div class="dir-r radius-3" id="r-list">
 												<h1>Coding Temple</h1>
-												<ul>
-													<li>Analyzed data sets reflecting usage statistics with Python, Pandas, and NumPy in order to develop usable data in the
+												<ul class="experience">
+													<li class="work-list">Analyzed data sets reflecting usage statistics with Python, Pandas, and NumPy in order to develop usable data in the
 													development of future marketing plans</li>
-													<li>Engineered a full-stack website including user registration, login, and messaging utilizing HTML, CSS, Javascript,
+													<li class="work-list">Engineered a full-stack website including user registration, login, and messaging utilizing HTML, CSS, Javascript,
 													React, and Firebase Realtime Database</li>
-													<li>Created a weather widget using JQuery, vanilla Javascript, Ajax, and the OpenWeatherMap API to provide real-time weather
+													<li class="work-list">Created a weather widget using JQuery, vanilla Javascript, Ajax, and the OpenWeatherMap API to provide real-time weather
 													data</li>
-													<li>Developed web applications with Python, Flask, and Jinja for front and back-end utility</li>
+													<li class="work-list">Developed web applications with Python, Flask, and Jinja for front and back-end utility</li>
 												</ul>
 											</div>
-											<div class="date-r">03/2021 - Present</div>
+											<div class="date-l">03/2021 - 08/2021</div>
 										</li>
 									
 										<!-- <li class="timeline-blocks">
@@ -499,7 +543,7 @@
 										</li> -->
 									</ul>
 
-									<a href="images/Resume_DavidCortinas_062021.pdf" class="mu-resume-btn"
+									<a href="assets/images/Resume_DavidCortinas_062021.pdf" class="mu-resume-btn"
 										id="skills-resume" download="Resume_DavidCortinas_062021">Download My Resume</a>
 								</div>
 							</div>
@@ -525,8 +569,23 @@
 
 							<div class="mu-testimonials-block">
 								<ul class="mu-testimonial-slide">
-
 									<li>
+										<i class="fa fa-quote-right mu-quote-icon"></i>
+										<p>David is an extremely talented programmer and an amazing team player, going above and beyond in his communication and
+										willingness to tackle any problem. He’s tremendously magnanimous and thoughtful. I had the pleasure of being David’s
+										team lead and can only marvel at the rate at which he learned the codebase, new paradigms, and technologies. He was a
+										huge voice on the reporting team and his enthusiasm was infectious, helping to energize his teammates and keep spirits
+										up. During his time at QuotaPath, David worked on some of the most complicated pieces of the application across
+										front-end and back-end solutions. He was willing to get into the weeds and excellently belayed blockers and edge cases
+										to the team and to product managers. He often independently found gnarly bugs, communicated and elevated their priority,
+										lead discussions on the potential solutions, and helped the team to come to a deeper understanding of the complex logic
+										at hand in his fix. I couldn’t ask for more from a teammate. He’ll be sorely missed. I expect great things in the future
+										and would be thrilled to work with him again.</p>
+										<h5 class="mu-ct-name"> - Michael Bagwell</h5>
+										<span class="mu-ct-title">Lead Software Engineer, QuotaPath</span>
+									</li>
+
+									<li style="padding-top: 5rem;">
 										<i class="fa fa-quote-right mu-quote-icon"></i>
 										<p>It is always a pleasure to work with David. Not just because we have the same name. 
 										He is a self starter and a mindful worker. A visionary. In my experience, David has always 
@@ -535,6 +594,7 @@
 										<h5 class="mu-ct-name"> - David Castro</h5>
 										<span class="mu-ct-title">Founder & CEO, Vancerts</span>
 									</li>
+
 
 									<!-- <li>
 										<i class="fa fa-quote-right mu-quote-icon"></i>
@@ -579,40 +639,36 @@
 								<div class="row">	
 
 									<div class="col-md-12">
-										<div class="mu-contact-bottom">
-										<div id="form-messages"></div>
-											<form id="ajax-contact" method="POST" data-email="david.g.cortinas@gmail.com" class="mu-contact-form gform"
-											action="https://script.google.com/macros/s/AKfycbzPf_slLreCHxuueqpBbaEoX8ftAXm2i-7aac-TBdvCDtV6QVw/exec">
-												<div style="display:none" class="thankyou_message">
-													<!-- You can customize the thankyou message by editing the code below -->
-													<h2 class="confirmation-message"><em>Thank you</em> for reaching out! I will be in touch soon!</h2>
-												</div>
-												<div class="col-md-12 contact-info">
-													<div class="mu-contact-top">
-												
-														<div class="row">
-															<div class="col-sm-4">
-																<div class="mu-contact-top-single">
-																	<div class="mu-icon"><i class="fa fa-map-marker"></i></div>
-																	<p>Austin, TX, USA</p>
-																</div>
-															</div>
-															<div class="col-sm-4">
-																<div class="mu-contact-top-single">
-																	<div class="mu-icon"><i class="fa fa-phone"></i></div>
-																	<p>(210) 863-2282</p>
-																</div>
-															</div>
-															<div class="col-sm-4">
-																<div class="mu-contact-top-single">
-																	<div class="mu-icon"><i class="fa fa-envelope"></i></div>
-																	<p>david.g.cortinas@gmail.com</p>
-																</div>
-															</div>
-												
-														</div>
+										<div class="mu-contact-top">
+
+											<div class="row">
+												<div class="col-sm-4">
+													<div class="mu-contact-top-single">
+														<div class="mu-icon"><i class="fa fa-map-marker"></i></div>
+														<p>Austin, TX, USA</p>
 													</div>
 												</div>
+												<div class="col-sm-4">
+													<div class="mu-contact-top-single">
+														<div class="mu-icon"><i class="fa fa-phone"></i></div>
+														<p>(210) 863-2282</p>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<div class="mu-contact-top-single">
+														<div class="mu-icon"><i class="fa fa-envelope"></i></div>
+														<p>david.g.cortinas@gmail.com</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>	
+
+									<div class="col-md-12">
+										<div class="mu-contact-bottom">
+										<div id="form-messages"></div>
+											<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
 												<div class="form-group">                
 													<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
 												</div>
