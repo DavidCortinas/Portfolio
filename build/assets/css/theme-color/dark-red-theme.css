@@ -38,7 +38,7 @@ Author URI : http://www.markups.io/
 .mu-skill-progress-bar .mu-pro-bar,
 #mu-featured-slider,
 #mu-header.mu-fixed-nav {
-	background-image: url("assets/images/christopher-gower-m_HRfLhgABo-unsplash.jpeg");
+	/* background-image: url("images/christopher-gower-m_HRfLhgABo-unsplash.jpeg"); */
 	/* background-color: rgba(227, 75, 51, 0.95); */
 	background-color: #fff;
 }

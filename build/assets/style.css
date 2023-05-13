@@ -276,6 +276,7 @@ button:focus {
 	width: 100%;
 	position: fixed;
 	padding: 15px 0;
+	/* background-color: #FFFFFF; */
 }
 
 
@@ -340,7 +341,7 @@ button:focus {
 /*--------------------*/
 
 #mu-featured-slider {
-	background-image: url("assets/images/karsten-winegeart-bnG63BDP9vo-unsplash-riri-edit.png");
+	background-image: url("images/karsten-winegeart-bnG63BDP9vo-unsplash-riri-edit.png");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: top;
@@ -534,10 +535,6 @@ button:focus {
 	
 }
 
-#linkedin {
-
-}
-
 .mu-resume-btn {
 	margin-top: 30px;
 	display: inline-block;
@@ -591,7 +588,7 @@ button:focus {
 .mu-service-content{
 	display: inline;
 	float: left;
-	margin-top: 70px;
+	/* margin-top: 2em; */
 	width: 100%;
 }
 
@@ -722,7 +719,7 @@ button:focus {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	opacity: 0;
-	width: 50%;
+	width: 47.4%;
 	/* height: 25%; */
 }
 
@@ -806,7 +803,7 @@ button:focus {
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/christopher-gower-m_HRfLhgABo-unsplash.jpeg");
+	background-image: url("images/christopher-gower-m_HRfLhgABo-unsplash.jpeg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -928,6 +925,10 @@ button:focus {
 /* CONTACT US */
 /*--------------------*/
 
+/* .contact-info {
+	padding-top: -25%;
+} */
+
 #mu-contact {
 	background-color: #fff;
 	display: inline;
@@ -953,7 +954,7 @@ button:focus {
 .mu-contact-content{
 	display: inline;
 	float: left;
-	margin-top: 50px;
+	/* margin-top: 50px; */
 	padding: 0 120px;
 	width: 100%;
 }
@@ -1163,6 +1164,13 @@ h1 {
 	background-color: #af311d;
 }
 
+a:active {
+	color: black
+}
+
+a:visited {
+	color: black
+}
 /*--------------------*/
 /* CUSTOM TIMELINE*/
 /*--------------------*/
@@ -1227,12 +1235,12 @@ h1 {
   font-family: 'Open Sans', sans-serif;
 }
  
-.timeline p{ 
+.timeline li{ 
   letter-spacing: .5px;
-  font-size: 1.1em;
-  line-height: 1.5em;
+  font-size: 1em;
+  line-height: 1.3em;
   margin: .5em;
-  margin-top: 1.5em;
+  margin-top: 1.3em;
   font-family: 'Open Sans', sans-serif;
 }
  
@@ -1314,16 +1322,27 @@ h1 {
  margin-left: .3em;
  } 
  
- .timeline-blocks .date-l, .timeline-blocks .date-r{
+.timeline-blocks .date-l{
  position: absolute;
  top: 2em;
  right: 58%;
  font-size: 1em;
  }
  
- .timeline-blocks .date-r{ left: 54%; right: auto;}
+ .timeline-blocks .date-r{ 
+ position: absolute;
+ top: 2em;
+ font-size: 1em;
+ left: 58%;
+ }
+
+ /* .timeline-blocks .date-l{ left: 54%; right: auto;} */
  
  .timeline-blocks a:hover{ color: #4B878D; }
+
+ /* .confirmation-message{
+	 padding-top: 10%;
+ } */
 
 
 
@@ -1363,8 +1382,8 @@ h1 {
 @media (max-width: 991px) {
 	
 	.navbar-default .mu-menu li a {
-		font-size: 14px;
-		margin: 10px 5px;
+		font-size: 10px;
+		margin: 8px 4px;
 	}	
 
 	.mu-primary-btn {
